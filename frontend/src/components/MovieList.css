@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.movie-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #c1cdc3;
+    padding: 0.1em;
+}
+
+.users-list-button {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 0.8em 1em;
+    background-color: #1b25de;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.users-list-button:hover {
+    background-color: #0144ee;
+}
+
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    background-color: #7f9783;
+    border-radius: 2em;
+    margin: auto;
+    overflow-y: scroll;
+    max-height: 90vh;
+    scrollbar-width: none;
+    box-shadow: 0 0.2em 2em rgba(0, 0, 0, 0.5);
+}
+
+.movie-list::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-list img {
+    width: 11em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 2em;
+    margin: 0.3em;
+    transition: transform 0.3s ease;
+}
+
+.movie-list img:hover {
+    transform: scale(1.05);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4em;
+}
+
+.pagination button {
+    padding: 0.6em;
+    margin: 0.2em;
+    border: none;
+    border-radius: 2em;
+    background-color: #1b25de;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #0144ee;
+}
+
+.pagination button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.add-movie-button {
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 2em;
+    background-color: #1b25de;
+    color: white;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.add-movie-button:hover {
+    background-color: #0144ee;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 30em;
+    padding: 0.8em;
+    margin: 1em 0;
+    border: 0.1em solid #ccc;
+    border-radius: 2em;
+    font-size: 1em;
+}
+
+.sort-dropdown {
+    padding: 0.5em;
+    margin: 1em 0;
+    border: 0.1em solid #ccc;
+    border-radius: 2em;
+    font-size: 1em;
+}

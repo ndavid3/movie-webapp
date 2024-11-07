@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.submit-review-box {
+    display: flex;
+    background-color: #c1cdc3;
+    width: 52em;
+    height: 5em;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.submit-review-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.submit-review-text {
+    flex: 1;
+    height: 4.7em;
+    resize: none;
+    padding: 0.6em;
+    font-size: 1em;
+    border: 0.1em solid #ccc;
+    margin-right: 1em;
+    border-radius: 2em;
+}
+
+.submit-review-button {
+    padding: 0.7em 1.5em;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #1b25de;
+}
+
+.submit-review-button:hover {
+    background-color: #3c44de;
+}

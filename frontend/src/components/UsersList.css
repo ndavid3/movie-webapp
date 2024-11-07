@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-list-container {
+    font-family: "Arial", sans-serif;
+    background-color: #c1cdc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.user-list-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #7f9783;
+    width: 100%;
+    max-width: 30em;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0.2em 2em rgba(0, 0, 0, 0.5);
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.user-list-box::-webkit-scrollbar {
+    display: none;
+}
+
+.user-list-title {
+    font-size: 2.5em;
+    color: #161616;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.user-list-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.user-item {
+    font-size: 1.2em;
+    color: #333;
+    background-color: #c1cdc3;
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 2em;
+    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-user-button {
+    background-color: #f43f3f;
+    color: white;
+    padding: 0.6em 0.7em;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    margin-right: 0.2em;
+}
+
+.change-password-button {
+    background-color: #1b25de;
+    color: white;
+    padding: 0.6em 0.7em;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    margin-left: 0.2em;
+}
+
+.change-password-button:hover {
+    background-color: #0144ee;
+}
+
+.delete-user-button:hover{
+    background-color: #ee6969;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.back-to-movies-button-us {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 0.8em 1em;
+    background-color: #1b25de;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.back-to-movies-button-us:hover {
+    background-color: #0144ee;
+}

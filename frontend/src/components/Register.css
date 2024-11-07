@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-user-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #c1cdc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.register-user-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f9783;
+    width: 100%;
+    max-width: 25em;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0.2em 2em rgba(0, 0, 0, 0.5);
+}
+
+.register-user-box label {
+    font-weight: bold;
+}
+
+.register-user-box h2 {
+    font-size: 2.5em;
+    color: #161616;
+    margin-bottom: 1em;
+}
+
+.register-user-box input,
+.register-user-box select {
+    margin: 0.3em 0;
+    width: 100%;
+    padding: 0.6em;
+    border: 0.1em solid #908989;
+    border-radius: 2em;
+    font-size: 1em;
+}
+
+.register-user-box button {
+    padding: 0.7em;
+    color: white;
+    background-color: #1b25de;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.register-user-box button:hover {
+    background-color: #0144ee;
+}
+
+.register-error-message {
+    color: rgb(161, 3, 3);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.register-success-message {
+    color: rgb(2, 60, 2);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.back-to-login-button {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 0.8em 1em;
+    background-color: #1b25de;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+
+.back-to-login-button:hover {
+    background-color: #0144ee;
+}
